@@ -1,0 +1,6 @@
+Invoking command in '/home/yunyi05/dev_ws/src/ros_7489/build/ros_7489': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yunyi05/dev_ws/src/ros_7489 -DCMAKE_INSTALL_PREFIX=/home/yunyi05/dev_ws/src/ros_7489/install/ros_7489
+Invoked command in '/home/yunyi05/dev_ws/src/ros_7489/build/ros_7489' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yunyi05/dev_ws/src/ros_7489 -DCMAKE_INSTALL_PREFIX=/home/yunyi05/dev_ws/src/ros_7489/install/ros_7489
+Invoking command in '/home/yunyi05/dev_ws/src/ros_7489/build/ros_7489': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yunyi05/dev_ws/src/ros_7489/build/ros_7489 -- -j16 -l16
+Invoked command in '/home/yunyi05/dev_ws/src/ros_7489/build/ros_7489' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yunyi05/dev_ws/src/ros_7489/build/ros_7489 -- -j16 -l16
+Invoking command in '/home/yunyi05/dev_ws/src/ros_7489/build/ros_7489': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yunyi05/dev_ws/src/ros_7489/build/ros_7489
+Invoked command in '/home/yunyi05/dev_ws/src/ros_7489/build/ros_7489' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yunyi05/dev_ws/src/ros_7489/build/ros_7489

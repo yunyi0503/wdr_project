@@ -1,0 +1,119 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yunyi05/dev_ws/build/ros_7489
+[ 25%] [32mBuilding CXX object CMakeFiles/subscribe_jerry_position.dir/src/subscribe_jerry_position.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rotate_jerry.dir/src/rotate_jerry.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/spawn_jerry.dir/src/spawn_jerry.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/set_background_color.dir/src/set_background_color.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/broadcast_tf.dir/src/broadcast_tf.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/follow_jerry.dir/src/follow_jerry.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable spawn_jerry[0m
+[ 66%] [32m[1mLinking CXX executable set_background_color[0m
+[ 66%] Built target set_background_color
+[ 66%] Built target spawn_jerry
+[ 75%] [32m[1mLinking CXX executable rotate_jerry[0m
+[ 75%] Built target rotate_jerry
+[ 83%] [32m[1mLinking CXX executable subscribe_jerry_position[0m
+[ 91%] [32m[1mLinking CXX executable broadcast_tf[0m
+[100%] [32m[1mLinking CXX executable follow_jerry[0m
+[100%] Built target subscribe_jerry_position
+[100%] Built target broadcast_tf
+[100%] Built target follow_jerry
+-- Install configuration: ""
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/lib/ros_7489/spawn_jerry
+-- Set runtime path of "/home/yunyi05/dev_ws/install/ros_7489/lib/ros_7489/spawn_jerry" to ""
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/lib/ros_7489/subscribe_jerry_position
+-- Set runtime path of "/home/yunyi05/dev_ws/install/ros_7489/lib/ros_7489/subscribe_jerry_position" to ""
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/lib/ros_7489/rotate_jerry
+-- Set runtime path of "/home/yunyi05/dev_ws/install/ros_7489/lib/ros_7489/rotate_jerry" to ""
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/lib/ros_7489/follow_jerry
+-- Set runtime path of "/home/yunyi05/dev_ws/install/ros_7489/lib/ros_7489/follow_jerry" to ""
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/lib/ros_7489/broadcast_tf
+-- Set runtime path of "/home/yunyi05/dev_ws/install/ros_7489/lib/ros_7489/broadcast_tf" to ""
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/lib/ros_7489/set_background_color
+-- Set runtime path of "/home/yunyi05/dev_ws/install/ros_7489/lib/ros_7489/set_background_color" to ""
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489/
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//log
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//log/build_2024-08-15_08-45-03
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//log/build_2024-08-15_08-45-03/logger_all.log
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//log/build_2024-08-15_08-45-03/events.log
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//log/latest
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//log/build_2024-08-15_08-52-59
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//log/build_2024-08-15_08-52-59/logger_all.log
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//log/build_2024-08-15_08-52-59/events.log
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//log/latest_build
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//log/COLCON_IGNORE
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//build
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//build/.built_by
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//build/COLCON_IGNORE
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//spawn_and_control.launch.py
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//install
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//install/setup.ps1
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//install/local_setup.sh
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//install/setup.sh
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//install/_local_setup_util_sh.py
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//install/local_setup.bash
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//install/.colcon_install_layout
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//install/local_setup.ps1
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//install/_local_setup_util_ps1.py
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//install/COLCON_IGNORE
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//install/local_setup.zsh
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//install/setup.bash
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489//install/setup.zsh
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ament_index/resource_index/package_run_dependencies/ros_7489
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ament_index/resource_index/parent_prefix_path/ros_7489
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489/environment/ament_prefix_path.sh
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489/environment/ament_prefix_path.dsv
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489/environment/path.sh
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489/environment/path.dsv
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489/local_setup.bash
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489/local_setup.sh
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489/local_setup.zsh
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489/local_setup.dsv
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489/package.dsv
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ament_index/resource_index/packages/ros_7489
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489/cmake/ros_7489Config.cmake
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489/cmake/ros_7489Config-version.cmake
+-- Installing: /home/yunyi05/dev_ws/install/ros_7489/share/ros_7489/package.xml

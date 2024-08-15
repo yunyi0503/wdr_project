@@ -1,0 +1,286 @@
+[0.000000] (-) TimerEvent: {}
+[0.000210] (ros_7489) JobQueued: {'identifier': 'ros_7489', 'dependencies': OrderedDict()}
+[0.000258] (ros_7489) JobStarted: {'identifier': 'ros_7489'}
+[0.008265] (ros_7489) JobProgress: {'identifier': 'ros_7489', 'progress': 'cmake'}
+[0.008668] (ros_7489) Command: {'cmd': ['/usr/bin/cmake', '/home/yunyi05/dev_ws/src/ros_7489', '-DCMAKE_INSTALL_PREFIX=/home/yunyi05/dev_ws/src/ros_7489/install/ros_7489'], 'cwd': '/home/yunyi05/dev_ws/src/ros_7489/build/ros_7489', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yunyi05'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yunyi05'), ('OLDPWD', '/home/yunyi05/dev_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yunyi05'), ('NAME', 'yunyi05'), ('WSL_INTEROP', '/run/WSL/61973_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yunyi05/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/c/apache-tomcat-10.1.23/bin:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files (x86)/pcsuite/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/29928/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/29928/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2024.1/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/yunyi05/dev_ws/src/ros_7489/build/ros_7489'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098288] (-) TimerEvent: {}
+[0.192503] (ros_7489) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.198415] (-) TimerEvent: {}
+[0.298741] (-) TimerEvent: {}
+[0.399114] (-) TimerEvent: {}
+[0.499702] (-) TimerEvent: {}
+[0.600092] (-) TimerEvent: {}
+[0.620388] (ros_7489) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.700211] (-) TimerEvent: {}
+[0.800530] (-) TimerEvent: {}
+[0.901157] (-) TimerEvent: {}
+[0.912055] (ros_7489) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.001300] (-) TimerEvent: {}
+[1.032195] (ros_7489) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.036362] (ros_7489) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.036964] (ros_7489) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.037462] (ros_7489) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.040160] (ros_7489) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.101411] (-) TimerEvent: {}
+[1.160001] (ros_7489) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.164746] (ros_7489) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.164995] (ros_7489) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.165208] (ros_7489) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.175951] (ros_7489) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.201583] (-) TimerEvent: {}
+[1.280642] (ros_7489) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.301709] (-) TimerEvent: {}
+[1.361271] (ros_7489) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.401892] (-) TimerEvent: {}
+[1.502284] (-) TimerEvent: {}
+[1.534117] (ros_7489) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.540234] (ros_7489) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.551430] (ros_7489) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.566985] (ros_7489) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.585353] (ros_7489) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.602454] (-) TimerEvent: {}
+[1.638774] (ros_7489) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.642172] (ros_7489) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.702581] (-) TimerEvent: {}
+[1.802918] (-) TimerEvent: {}
+[1.903308] (-) TimerEvent: {}
+[2.003648] (-) TimerEvent: {}
+[2.104009] (-) TimerEvent: {}
+[2.204374] (-) TimerEvent: {}
+[2.304827] (-) TimerEvent: {}
+[2.405542] (-) TimerEvent: {}
+[2.505874] (-) TimerEvent: {}
+[2.606235] (-) TimerEvent: {}
+[2.706761] (-) TimerEvent: {}
+[2.807351] (-) TimerEvent: {}
+[2.840848] (ros_7489) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.907508] (-) TimerEvent: {}
+[3.007911] (-) TimerEvent: {}
+[3.108280] (-) TimerEvent: {}
+[3.208686] (-) TimerEvent: {}
+[3.309048] (-) TimerEvent: {}
+[3.409379] (-) TimerEvent: {}
+[3.509716] (-) TimerEvent: {}
+[3.610061] (-) TimerEvent: {}
+[3.710399] (-) TimerEvent: {}
+[3.810728] (-) TimerEvent: {}
+[3.911070] (-) TimerEvent: {}
+[4.011438] (-) TimerEvent: {}
+[4.111786] (-) TimerEvent: {}
+[4.129995] (ros_7489) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.211916] (-) TimerEvent: {}
+[4.312233] (-) TimerEvent: {}
+[4.412577] (-) TimerEvent: {}
+[4.512912] (-) TimerEvent: {}
+[4.613307] (-) TimerEvent: {}
+[4.713858] (-) TimerEvent: {}
+[4.814275] (-) TimerEvent: {}
+[4.914647] (-) TimerEvent: {}
+[5.015032] (-) TimerEvent: {}
+[5.115515] (-) TimerEvent: {}
+[5.215834] (-) TimerEvent: {}
+[5.316196] (-) TimerEvent: {}
+[5.416526] (-) TimerEvent: {}
+[5.516864] (-) TimerEvent: {}
+[5.617180] (-) TimerEvent: {}
+[5.717658] (-) TimerEvent: {}
+[5.818000] (-) TimerEvent: {}
+[5.918324] (-) TimerEvent: {}
+[6.018656] (-) TimerEvent: {}
+[6.119004] (-) TimerEvent: {}
+[6.219325] (-) TimerEvent: {}
+[6.319649] (-) TimerEvent: {}
+[6.419998] (-) TimerEvent: {}
+[6.491554] (ros_7489) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.501423] (ros_7489) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.520171] (-) TimerEvent: {}
+[6.620749] (-) TimerEvent: {}
+[6.624737] (ros_7489) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.625084] (ros_7489) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.720959] (-) TimerEvent: {}
+[6.737005] (ros_7489) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.737828] (ros_7489) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.797719] (ros_7489) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[6.821105] (-) TimerEvent: {}
+[6.846276] (ros_7489) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[6.921326] (-) TimerEvent: {}
+[6.944346] (ros_7489) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.010372] (ros_7489) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.010644] (ros_7489) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[7.010704] (ros_7489) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.012003] (ros_7489) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.014492] (ros_7489) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.016056] (ros_7489) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.021392] (-) TimerEvent: {}
+[7.021963] (ros_7489) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.022066] (ros_7489) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.023469] (ros_7489) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.025188] (ros_7489) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.047253] (ros_7489) StdoutLine: {'line': b'-- Generating done\n'}
+[7.048858] (ros_7489) StdoutLine: {'line': b'-- Build files have been written to: /home/yunyi05/dev_ws/src/ros_7489/build/ros_7489\n'}
+[7.058528] (ros_7489) CommandEnded: {'returncode': 0}
+[7.059149] (ros_7489) JobProgress: {'identifier': 'ros_7489', 'progress': 'build'}
+[7.060242] (ros_7489) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yunyi05/dev_ws/src/ros_7489/build/ros_7489', '--', '-j16', '-l16'], 'cwd': '/home/yunyi05/dev_ws/src/ros_7489/build/ros_7489', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yunyi05'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yunyi05'), ('OLDPWD', '/home/yunyi05/dev_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yunyi05'), ('NAME', 'yunyi05'), ('WSL_INTEROP', '/run/WSL/61973_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yunyi05/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/c/apache-tomcat-10.1.23/bin:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files (x86)/pcsuite/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/29928/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/29928/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2024.1/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/yunyi05/dev_ws/src/ros_7489/build/ros_7489'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.097053] (ros_7489) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/broadcast_tf.dir/src/broadcast_tf.cpp.o\x1b[0m\n'}
+[7.097355] (ros_7489) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/spawn_jerry.dir/src/spawn_jerry.cpp.o\x1b[0m\n'}
+[7.097447] (ros_7489) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/subscribe_jerry_position.dir/src/subscribe_jerry_position.cpp.o\x1b[0m\n'}
+[7.097644] (ros_7489) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rotate_jerry.dir/src/rotate_jerry.cpp.o\x1b[0m\n'}
+[7.097908] (ros_7489) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/follow_jerry.dir/src/follow_jerry.cpp.o\x1b[0m\n'}
+[7.100736] (ros_7489) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/set_background_color.dir/src/set_background_color.cpp.o\x1b[0m\n'}
+[7.121680] (-) TimerEvent: {}
+[7.222202] (-) TimerEvent: {}
+[7.322618] (-) TimerEvent: {}
+[7.423219] (-) TimerEvent: {}
+[7.523630] (-) TimerEvent: {}
+[7.624084] (-) TimerEvent: {}
+[7.724456] (-) TimerEvent: {}
+[7.824913] (-) TimerEvent: {}
+[7.925419] (-) TimerEvent: {}
+[8.025773] (-) TimerEvent: {}
+[8.126152] (-) TimerEvent: {}
+[8.226577] (-) TimerEvent: {}
+[8.327211] (-) TimerEvent: {}
+[8.427687] (-) TimerEvent: {}
+[8.528112] (-) TimerEvent: {}
+[8.628545] (-) TimerEvent: {}
+[8.729104] (-) TimerEvent: {}
+[8.829511] (-) TimerEvent: {}
+[8.929937] (-) TimerEvent: {}
+[9.030369] (-) TimerEvent: {}
+[9.130816] (-) TimerEvent: {}
+[9.231249] (-) TimerEvent: {}
+[9.331720] (-) TimerEvent: {}
+[9.432281] (-) TimerEvent: {}
+[9.532851] (-) TimerEvent: {}
+[9.633330] (-) TimerEvent: {}
+[9.733805] (-) TimerEvent: {}
+[9.834213] (-) TimerEvent: {}
+[9.934624] (-) TimerEvent: {}
+[10.035026] (-) TimerEvent: {}
+[10.135448] (-) TimerEvent: {}
+[10.235832] (-) TimerEvent: {}
+[10.336243] (-) TimerEvent: {}
+[10.436648] (-) TimerEvent: {}
+[10.537056] (-) TimerEvent: {}
+[10.637561] (-) TimerEvent: {}
+[10.738211] (-) TimerEvent: {}
+[10.800321] (ros_7489) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX executable set_background_color\x1b[0m\n'}
+[10.838448] (-) TimerEvent: {}
+[10.857481] (ros_7489) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable spawn_jerry\x1b[0m\n'}
+[10.938580] (-) TimerEvent: {}
+[11.038996] (-) TimerEvent: {}
+[11.042529] (ros_7489) StdoutLine: {'line': b'[ 66%] Built target set_background_color\n'}
+[11.071248] (ros_7489) StdoutLine: {'line': b'[ 66%] Built target spawn_jerry\n'}
+[11.139147] (-) TimerEvent: {}
+[11.239530] (-) TimerEvent: {}
+[11.339945] (-) TimerEvent: {}
+[11.437729] (ros_7489) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable rotate_jerry\x1b[0m\n'}
+[11.440092] (-) TimerEvent: {}
+[11.540584] (-) TimerEvent: {}
+[11.640953] (-) TimerEvent: {}
+[11.692438] (ros_7489) StdoutLine: {'line': b'[ 75%] Built target rotate_jerry\n'}
+[11.741151] (-) TimerEvent: {}
+[11.841544] (-) TimerEvent: {}
+[11.941949] (-) TimerEvent: {}
+[12.042345] (-) TimerEvent: {}
+[12.142754] (-) TimerEvent: {}
+[12.243183] (-) TimerEvent: {}
+[12.343625] (-) TimerEvent: {}
+[12.444176] (-) TimerEvent: {}
+[12.544770] (-) TimerEvent: {}
+[12.645244] (-) TimerEvent: {}
+[12.745641] (-) TimerEvent: {}
+[12.846076] (-) TimerEvent: {}
+[12.946451] (-) TimerEvent: {}
+[13.046838] (-) TimerEvent: {}
+[13.147196] (-) TimerEvent: {}
+[13.247538] (-) TimerEvent: {}
+[13.347873] (-) TimerEvent: {}
+[13.448226] (-) TimerEvent: {}
+[13.548569] (-) TimerEvent: {}
+[13.648927] (-) TimerEvent: {}
+[13.749297] (-) TimerEvent: {}
+[13.849680] (-) TimerEvent: {}
+[13.950275] (-) TimerEvent: {}
+[14.050725] (-) TimerEvent: {}
+[14.151126] (-) TimerEvent: {}
+[14.251506] (-) TimerEvent: {}
+[14.351918] (-) TimerEvent: {}
+[14.452317] (-) TimerEvent: {}
+[14.552754] (-) TimerEvent: {}
+[14.633999] (ros_7489) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable subscribe_jerry_position\x1b[0m\n'}
+[14.652918] (-) TimerEvent: {}
+[14.753299] (-) TimerEvent: {}
+[14.853680] (-) TimerEvent: {}
+[14.867178] (ros_7489) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable broadcast_tf\x1b[0m\n'}
+[14.895586] (ros_7489) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable follow_jerry\x1b[0m\n'}
+[14.953828] (-) TimerEvent: {}
+[14.976825] (ros_7489) StdoutLine: {'line': b'[100%] Built target subscribe_jerry_position\n'}
+[15.053995] (-) TimerEvent: {}
+[15.154349] (-) TimerEvent: {}
+[15.230493] (ros_7489) StdoutLine: {'line': b'[100%] Built target broadcast_tf\n'}
+[15.250239] (ros_7489) StdoutLine: {'line': b'[100%] Built target follow_jerry\n'}
+[15.254479] (-) TimerEvent: {}
+[15.258482] (ros_7489) CommandEnded: {'returncode': 0}
+[15.289211] (ros_7489) JobProgress: {'identifier': 'ros_7489', 'progress': 'install'}
+[15.295693] (ros_7489) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yunyi05/dev_ws/src/ros_7489/build/ros_7489'], 'cwd': '/home/yunyi05/dev_ws/src/ros_7489/build/ros_7489', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yunyi05'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yunyi05'), ('OLDPWD', '/home/yunyi05/dev_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yunyi05'), ('NAME', 'yunyi05'), ('WSL_INTEROP', '/run/WSL/61973_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yunyi05/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/c/apache-tomcat-10.1.23/bin:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files (x86)/pcsuite/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/29928/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/29928/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2024.1/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/yunyi05/dev_ws/src/ros_7489/build/ros_7489'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.301218] (ros_7489) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.301981] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/lib/ros_7489/spawn_jerry\n'}
+[15.302854] (ros_7489) StdoutLine: {'line': b'-- Set runtime path of "/home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/lib/ros_7489/spawn_jerry" to ""\n'}
+[15.303091] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/lib/ros_7489/subscribe_jerry_position\n'}
+[15.306648] (ros_7489) StdoutLine: {'line': b'-- Set runtime path of "/home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/lib/ros_7489/subscribe_jerry_position" to ""\n'}
+[15.306793] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/lib/ros_7489/rotate_jerry\n'}
+[15.308338] (ros_7489) StdoutLine: {'line': b'-- Set runtime path of "/home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/lib/ros_7489/rotate_jerry" to ""\n'}
+[15.308424] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/lib/ros_7489/follow_jerry\n'}
+[15.312316] (ros_7489) StdoutLine: {'line': b'-- Set runtime path of "/home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/lib/ros_7489/follow_jerry" to ""\n'}
+[15.312420] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/lib/ros_7489/broadcast_tf\n'}
+[15.316230] (ros_7489) StdoutLine: {'line': b'-- Set runtime path of "/home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/lib/ros_7489/broadcast_tf" to ""\n'}
+[15.316357] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/lib/ros_7489/set_background_color\n'}
+[15.317048] (ros_7489) StdoutLine: {'line': b'-- Set runtime path of "/home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/lib/ros_7489/set_background_color" to ""\n'}
+[15.317119] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489/\n'}
+[15.317478] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//log\n'}
+[15.317643] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//log/build_2024-08-15_08-45-03\n'}
+[15.317823] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//log/build_2024-08-15_08-45-03/logger_all.log\n'}
+[15.318251] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//log/build_2024-08-15_08-45-03/events.log\n'}
+[15.318608] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//log/latest\n'}
+[15.318717] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//log/build_2024-08-15_08-52-59\n'}
+[15.318851] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//log/build_2024-08-15_08-52-59/logger_all.log\n'}
+[15.319599] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//log/build_2024-08-15_08-52-59/events.log\n'}
+[15.319905] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//log/latest_build\n'}
+[15.319979] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//log/COLCON_IGNORE\n'}
+[15.320084] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//build\n'}
+[15.320280] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//build/.built_by\n'}
+[15.320608] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//build/COLCON_IGNORE\n'}
+[15.320753] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//spawn_and_control.launch.py\n'}
+[15.320893] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//install\n'}
+[15.321030] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//install/setup.ps1\n'}
+[15.321361] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//install/local_setup.sh\n'}
+[15.321695] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//install/setup.sh\n'}
+[15.322000] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//install/_local_setup_util_sh.py\n'}
+[15.322365] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//install/local_setup.bash\n'}
+[15.322700] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//install/.colcon_install_layout\n'}
+[15.323111] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//install/local_setup.ps1\n'}
+[15.323502] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//install/_local_setup_util_ps1.py\n'}
+[15.323850] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//install/COLCON_IGNORE\n'}
+[15.323960] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//install/local_setup.zsh\n'}
+[15.324268] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//install/setup.bash\n'}
+[15.324554] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489//install/setup.zsh\n'}
+[15.325392] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ament_index/resource_index/package_run_dependencies/ros_7489\n'}
+[15.325770] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ament_index/resource_index/parent_prefix_path/ros_7489\n'}
+[15.326081] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489/environment/ament_prefix_path.sh\n'}
+[15.326222] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489/environment/ament_prefix_path.dsv\n'}
+[15.326374] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489/environment/path.sh\n'}
+[15.326506] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489/environment/path.dsv\n'}
+[15.326650] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489/local_setup.bash\n'}
+[15.326785] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489/local_setup.sh\n'}
+[15.326929] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489/local_setup.zsh\n'}
+[15.327080] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489/local_setup.dsv\n'}
+[15.327232] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489/package.dsv\n'}
+[15.327480] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ament_index/resource_index/packages/ros_7489\n'}
+[15.327731] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489/cmake/ros_7489Config.cmake\n'}
+[15.327864] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489/cmake/ros_7489Config-version.cmake\n'}
+[15.328005] (ros_7489) StdoutLine: {'line': b'-- Installing: /home/yunyi05/dev_ws/src/ros_7489/install/ros_7489/share/ros_7489/package.xml\n'}
+[15.329619] (ros_7489) CommandEnded: {'returncode': 0}
+[15.354588] (-) TimerEvent: {}
+[15.369955] (ros_7489) JobEnded: {'identifier': 'ros_7489', 'rc': 0}
+[15.370948] (-) EventReactorShutdown: {}
